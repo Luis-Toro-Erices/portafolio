@@ -242,11 +242,19 @@ footer{
    
     .container__hero{
         text-align: center;
-        padding-top: 130px;
         width: auto;
         height: auto;
     
     }
+
+    .sub__titulo h1 {
+        top: 150px;
+    }
+
+    .sub__titulo h6 {
+        top: 200px;
+    }
+
     h1 .btn{
         font-family: 'Roboto Slab', serif;
         font-weight: 700;
@@ -270,39 +278,59 @@ footer{
 
 }
 
+@media (min-width: 380px) {
+   
+    .sub__titulo h1 {
+        top: 130px;
+    }
+
+    .sub__titulo h6 {
+        top: 170px;
+    }s
+
+
+}
+
 @media (min-width: 576px) {
    
-   
+    .sub__titulo h1 {
+        top: 80px;
+    }
+
+    .sub__titulo h6 {
+        top: 140px;
+    }s
 
 
 }
 @media (min-width: 768px) {
 
+    .sub__titulo h1 {
+        top: 90px;
+    }
+
+    .sub__titulo h6 {
+        top: 150px;
+    }
 
 }
 @media (min-width: 992px) {
    
+    .sub__titulo h1 {
+        top: 100px;
+    }
 
+    .sub__titulo h6 {
+        top: 160px;
+    }
    
 }
 @media (min-width: 1200px) {
-    .sub__titulo h1{
-        text-align: center;
-        width: 100%;
-        position: absolute;
-        margin-top: 80px;
-        font-size: 60px;
-     
+    .sub__titulo h1 {
+        top: 110px;
     }
-    
-    .sub__titulo h6{
-        text-align: center;
-     width: 100%;
-        position: absolute;
-        color: #ffffff;
-        margin-top: 140px;
-        font-weight: 200;
-        font-size: 40px;
-    
+
+    .sub__titulo h6 {
+        top: 170px;
     }
 }
