@@ -2,7 +2,7 @@ body {
     text-align: center;
     width: 100%;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     }
     
     body *{
@@ -14,41 +14,91 @@ body {
 /* INICIO NAVEGACION*/
 
 .fondo-navbar {
-    background-color:#74a2a2 !important;
+    background-color:#4B7A79;
 }
 
 /* FINAL NAVEGACION*/
 
 /* INICIO CONTENIDO PRINCIPAL*/
-section{
-    height: 700px;
+
+.hero__section {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
     width: 100%;
-    margin-top: auto;
-    background-color:#74a2a2;
+    background-position:center;
+    height: 800px;
+    ;
 }
 
-.caracteristicas{
-    color: #ffffff;
+.container__hero{
     text-align: center;
+    width: auto;
+    height: auto;
+
+}
+
+h1 .btn{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    color: #ffffff;
+ 
+}
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+h6 .btn{
+    text-align: center;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    font-weight: 200;
+    font-size: 40px;
+
+}
+
+h6 {
+    text-align: center;
+    width: 100%;
+    
+}
+.caracterizticas{
+    height:auto;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color:#96C3C5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
 }
 
 h1{
-    font-family: 'Cabin', sans-serif;
-    font-weight: 700;
     color: #ffffff !important;
     margin-right: auto;
     margin-top: auto;
 }
 
-p .centrado{
-    color: #ffffff;
+p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     margin-top: 20px;
 }
 
-h3{
-    text-align: center;
-    margin-top: 20px;
-    font-weight: 700;
+.cosas__relacionadas h3{
+    color: #ffffff;
 }
 
 .recuadro__texto{
@@ -83,3 +133,119 @@ h3{
  color: #000000;
 }
 /*CARUSEL*/
+
+/*INICIO RELACIONADAS*/
+.otras__habilidades{
+    text-align: center;
+    width: 100%;
+    
+}
+.cosas__relacionadas{
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color:#96C3C5;
+}
+.titulo__relacionadas{
+
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    text-align: center !important;
+    font-weight: 700 !important;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+}
+
+.card-text{
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+}
+/*FIN RELACIONADAS*/
+
+/* aside*/
+
+aside {
+    margin-bottom: 0px;
+}
+
+/* aside*/
+
+/*INICIO FOOTER*/
+
+.bg{
+    background-color: #4B7A79;
+
+    color: #ffffff;
+    
+}
+i{
+    color: #ffffff;
+    margin: 0px 20px 20px 20px;
+}
+
+
+footer{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    width: auto;
+    height:  120px;
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*FIN FOOTER*/
+
+
+/*mediaquery*/
+
+
+@media (min-width: 576px) {
+   
+   
+
+
+}
+@media (min-width: 768px) {
+
+
+}
+@media (min-width: 992px) {
+   
+
+   
+}
+@media (min-width: 1200px) {
+    .sub__titulo h1{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        margin-top: 80px;
+        font-size: 60px;
+     
+    }
+    
+    .sub__titulo h6{
+        text-align: center;
+     width: 100%;
+        position: absolute;
+        color: #ffffff;
+        margin-top: 140px;
+        font-weight: 200;
+        font-size: 40px;
+    
+    }
+}

@@ -1,0 +1,94 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondo-navbar {
+    background-color:#28A745!important;
+}
+
+.card-title{
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+.precios{
+    text-align: right;
+    display: inline;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.oferta{
+    text-align: right; 
+}
+
+.precioreal{
+    color: #28A745;
+}
+
+.fondo__formulario{
+    height: 241px;
+}
+
+.formulario__contenido{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.recibe__cupones{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 0.9rem;
+}
+
+
+
+footer{
+    text-align: center;
+
+}
+
+.contenido__footer{
+    margin: 0 1.3125rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.375rem;
+  
+    
+}
+
+.texto__footer{
+    font-weight: 300;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 0.5rem;
+    margin-left: 50px;
+}
+
+@media (min-width: 576px) {
+    .formulario__contenido{
+        width: 80%;
+    }
+}
+    
+  
+  
+  @media (min-width: 768px) {
+
+  }
+ 
+  
+  
+  @media (min-width: 992px) {
+    .formulario__contenido{
+        width: 50%;
+  }
+  
+  
+  @media (min-width: 1200px) {
+
+  }
